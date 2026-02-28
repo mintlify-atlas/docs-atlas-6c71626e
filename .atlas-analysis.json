@@ -1,0 +1,95 @@
+{
+  "projectType": "frontend",
+  "projectName": "Kamil",
+  "projectDescription": "An Arabic text editor with integrated Quran verse autocompletion and rich formatting capabilities",
+  "theme": "almond",
+  "primaryColor": "#16a34a",
+  "lightColor": "#87CEFA",
+  "darkColor": "#FFD1DC",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "installation",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/quran-integration",
+              "features/text-formatting",
+              "features/export-options",
+              "features/page-management"
+            ]
+          },
+          {
+            "group": "User Guide",
+            "pages": [
+              "guides/writing",
+              "guides/inserting-verses",
+              "guides/keyboard-shortcuts",
+              "guides/pwa-installation"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "development/architecture",
+              "development/editor-plugins",
+              "development/database",
+              "development/contributing"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Components",
+        "groups": [
+          {
+            "group": "Editor Components",
+            "pages": [
+              "components/editor-content",
+              "components/editor-toolbar",
+              "components/slash-command"
+            ]
+          },
+          {
+            "group": "UI Components",
+            "pages": [
+              "components/sidebar",
+              "components/page-actions",
+              "components/dialogs"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Quran verse autocompletion with slash command",
+    "Rich text editor with PlateJS",
+    "RTL (right-to-left) Arabic text support",
+    "Local storage with IndexedDB",
+    "Export to PDF, HTML, Markdown, and JSON",
+    "Progressive Web App (PWA) support",
+    "Page management system",
+    "Chrome extension integration"
+  ],
+  "publicApiSurface": [
+    "EditorContent - Main editor component",
+    "EditorToolbar - Formatting toolbar",
+    "SlashInputElement - Quran verse insertion",
+    "usePages - Hook for page management",
+    "db.pages - Dexie database interface",
+    "exportToPDF - PDF export utility",
+    "exportToHTML - HTML export utility",
+    "exportToMarkdown - Markdown export utility",
+    "exportToJSON - JSON export utility"
+  ]
+}
